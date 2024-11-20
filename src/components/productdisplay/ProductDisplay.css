@@ -1,0 +1,168 @@
+.ProductDisplay {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    margin: 0px 50px;
+}
+  .productdisplay-left {
+    width: 40%;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .productdisplay-image-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .productdisplay-image-list img {
+     height: 103.5px;
+
+  }
+  
+  /* .productdisplay-image-list img:hover {
+    transform: scale(1.1);
+  } */
+  
+  /* .productdisplay-image {
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .productdisplay-main-image {
+    width: 400px;
+    height: 450px;
+  }
+  
+  .productdisplay-right {
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productdisplay-right h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .productdisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* .productdisplay-right-star img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  } */
+  
+  .productdisplay-right-star p {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+
+
+
+  /* //ditak */
+  .productdisplay-right-prices {
+    display: flex;
+    flex-direction: column;
+  font-weight: 600;
+  font-size: 15px;
+    gap: 20px;                  
+    margin: -10px 0px;
+  }
+  .upperkaro{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+
+  .productdisplay-right-price-old {
+    font-size: 1rem;
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .productdisplay-right-price-new {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #e60000;
+  }
+
+  .displayright-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: -12px;
+}
+
+  .productdisplay-right-size {
+ display: flex;
+ margin: 5px 0px;
+ gap: 20px;
+  }
+  
+  .productdisplay-right-size h1 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .productdisplay-right-sizes {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .productdisplay-right-sizes div {
+  align-items: center;
+  padding: 7px 20px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .productdisplay-right-sizes div:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e60000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 0px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c70000;
+  }
+  
+  .productdisplay-right-category {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .productdisplay-right-category span {
+    font-weight: bold;
+  }
+
+  .bottomdescription{
+    display: flex;
+    flex-direction: column;
+   margin: -10px 0px;
+
+  }
