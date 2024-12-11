@@ -12,25 +12,40 @@
     margin: auto;
 }
 .LoginSignup-container h1{
-    margin: 20px 0px;
+    margin: 5px 0px;
+    margin-top: -10px;
+    text-align: center;
+   
 }
+
+.underline{
+    width: 90px; 
+    height: 5px;
+    background:#000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  margin-left: 197px;
+}
+
 .LoginSignup-fields{
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin-top: 30px;
+    gap: 15px;
+    margin-top: 20px;
 }
 .LoginSignup-fields input{
     height: 70px;
     width: 100%;
+    margin-bottom: -10px;
     padding-left: 20px;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     outline: none;
     font-size: 15px;
     color: black;
-
 }
 .LoginSignup-container button{
+    margin-top: 20px;
+    margin-bottom: 15px;
     width: 470px;
     height: 70px;
     background: red;
@@ -48,8 +63,9 @@ font-weight: 500;
 
 }
 .LoginSignup-login span{
-    color: red;
+    color: red; 
     font-weight: 600;
+    cursor: pointer;
 
 }
 .LoginSignup-agree {
