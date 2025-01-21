@@ -3,21 +3,19 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    height: 90vh;
-    margin-bottom: 400px;
 }
 .New-Collection h1{
-    color: black;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .New-Collection .underline{
+    width: 250px; 
+    height: 4px; 
+    background-color: #000000; 
+    margin: 10px auto;
+  }
 
-}
-.underline hr{
-    width: 250px;
-    height: 5px;
-    border-radius: 10px;
-    background: rgb(0, 0, 0); 
-}
 .New-Collection-item{
     margin-top: 50px;
     display: flex;
@@ -30,3 +28,76 @@
     margin-top: 50px;
     gap: 30px;
 }
+
+
+@media(max-width:1024px) {
+
+  .New-Collection{
+         gap: 6px;
+      }
+
+  .New-Collection h1{
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .New-Collection .underline {
+      width: 250px; 
+      height: 4px; 
+      background-color: #000000; 
+      margin: 5px auto;
+    }
+
+  .New-Collection-item{
+      gap: 15px;
+      margin-top: 20px;
+  }
+
+}
+
+
+@media(max-width:800px) {
+  
+  .New-Collection{
+     gap: 6px;
+  }
+  .New-Collection h1{
+      font-size: 1.5rem;
+    }
+    
+    .New-Collection .underline {
+      width: 140px; 
+      height: 3px; 
+      background-color: #000000; 
+      margin: 0%;
+    }
+
+    .New-Collection-item{
+      display: flex;
+      gap: 10px;
+   justify-content: space-around;
+  
+  }
+}
+
+@media(max-width:500px) {
+
+  .New-Collection h1{
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .New-Collection .underline {
+      width: 120px; 
+      height: 2px;
+      background-color: #000000;
+      margin: 0%;
+    }
+    
+  .collections{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+  }
+
+} 

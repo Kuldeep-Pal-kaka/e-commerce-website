@@ -11,6 +11,7 @@ const {addToCart} = useContext(ShopContext)
 
   return (
     <div className='ProductDisplay'>
+      
       <div className="productdisplay-left">
        <div className="productdisplay-image-list">
         <img src={product.image} alt="" />
@@ -19,7 +20,7 @@ const {addToCart} = useContext(ShopContext)
         <img src={product.image} alt="" />
        </div>
        <div className="productdisplay-image">
-        <img className='productdisplay-main-image' src  ={product.image} alt="" />
+        <img className='productdisplay-main-image' src={product.image} alt="" />
        </div>
       </div>
 
@@ -34,11 +35,12 @@ const {addToCart} = useContext(ShopContext)
           <p>(117)</p>
         </div>
         <div className="productdisplay-right-prices">
-          <div className="upperkaro">
 
+          <div className="upperkaro">
           <div className="productdisplay-right-price-old">${product.old_price}</div>
           <div className="productdisplay-right-price-new"> ${product.new_price}</div>
           </div>
+
           <div className="displayright-description">
            Lorem ipsum dolor sit amet consectetur, adipisicing elit.Neque maxime accusantium rerum iste tenetur, laborum nesciunt harumratione molestias atque officiis veritatis aut, ad quo.
           </div>
@@ -49,18 +51,21 @@ const {addToCart} = useContext(ShopContext)
             <div>S</div>
             <div>M</div>
             <div>L</div>
-            <div>XL</div>
-            <div>XXL</div>
+            <div className='xl'>XL</div>
+            <div className='xxl'>XXL</div>
           </div>
         </div>
-          <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
-          <div className="bottomdescription">
 
+          <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+
+          <div className="bottomdescription">
           <p className='productdisplay-right-category'> <span>Category :</span> Women ,T-Shirt , Crop Top</p>
           <p className='productdisplay-right-category'> <span>Tags :</span> Modrens ,Latest </p>
           </div>
+          
         </div>
       </div>
+
     </div>
   )
 }

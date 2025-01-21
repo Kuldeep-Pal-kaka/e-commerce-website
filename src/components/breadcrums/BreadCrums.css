@@ -8,3 +8,103 @@
     margin: 27px 68px;
     text-transform: capitalize;
 }
+
+@media(max-width:1280px) {
+    .BreadCrums {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 27px 68px;
+        text-transform: capitalize;
+    }
+}
+
+
+@media(max-width:1024px) {
+    .BreadCrums {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 27px 68px;
+        text-transform: capitalize;
+    }
+
+    .BreadCrums img{
+        width: 8px;
+    }
+}
+
+@media(max-width:800px) {
+    .BreadCrums {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        color: black;
+        font-size: 10px;
+        font-weight: 400;
+        margin: 27px 62px;
+        text-transform: capitalize;
+    }
+
+    .BreadCrums img{
+        width: 6px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .BreadCrums {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        color: black;
+        font-size: 8px;
+        font-weight: 400;
+        margin: 27px 30px;
+        text-transform: capitalize;
+    }
+    .BreadCrums img{
+        width: 5px;
+    }
+}
+
+
+@media(max-width:630px) {
+    .BreadCrums {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        color: black;
+        font-size: 8px;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-left: 113px;
+        margin-bottom: 5px;
+    }
+    .BreadCrums img{
+        width: 4px;
+    }
+}
+
+@media(max-width:500px) {
+    .BreadCrums {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        color: black;
+        font-size: 6px;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-left: 113px;
+        margin-bottom: 5px;
+    }
+    .BreadCrums img{
+        width: 4px;
+    }
+}

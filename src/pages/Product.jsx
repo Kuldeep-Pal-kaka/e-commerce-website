@@ -18,7 +18,7 @@ const Product = () => {
   
   return (
     <div Product>
-      <BreadCrums product= {product}/>
+      <BreadCrums product={product}/>
       <ProductDisplay product={product}/>
       <DiscriptionBox/>
          <RelatedProduct/>

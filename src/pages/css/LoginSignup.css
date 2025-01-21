@@ -1,12 +1,13 @@
-.LoginSignup{
+.LoginSignup {
     width: 100%;
-    height: 130vh;
     background: rgb(247, 192, 200);
     padding: 100px;
+    margin-bottom: 100px;
 }
+
 .LoginSignup-container{
     width: 600px;
-    height: 600px;
+    min-height: 700px;
     background: white;
     padding: 40px 60px;
     margin: auto;
@@ -15,7 +16,6 @@
     margin: 5px 0px;
     margin-top: -10px;
     text-align: center;
-   
 }
 
 .underline{
@@ -23,8 +23,7 @@
     height: 5px;
     background:#000000;
     border-radius: 5px;
-    margin-bottom: 20px;
-  margin-left: 197px;
+    margin: 20px auto;
 }
 
 .LoginSignup-fields{
@@ -55,6 +54,7 @@
     font-size: 23px;
     cursor: pointer;
 }
+
 .LoginSignup-login{
 margin-top: 20px;
 color: black;
@@ -76,4 +76,387 @@ font-weight: 500;
     font-weight: 500;
     margin-top: 20px;
     gap: 20px;
+}
+
+@media(max-width:1280px){
+    .LoginSignup{
+        background: rgb(247, 192, 200);
+        justify-content: center;
+    }
+    .LoginSignup-container{
+        width: 600px;
+        min-height: 700px;
+        background: white;
+        padding: 40px 60px;
+        margin: auto;
+    }
+    .LoginSignup-container h1{
+       margin: 20px auto;
+        
+    }
+    
+.underline{
+    width: 100px; 
+    height: 5px;
+    background:#000000;
+    border-radius: 5px;
+   margin: 20px auto;
+}
+
+.LoginSignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.LoginSignup-fields input{
+    height: 70px;
+    width: 100%;
+    margin-bottom: -10px;
+    padding-left: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    font-size: 15px;
+    color: black;
+}
+
+.LoginSignup-container button{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 470px;
+    height: 70px;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 23px;
+    cursor: pointer;
+}
+.LoginSignup-login{
+    margin-top: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    
+    }
+    .LoginSignup-login span{
+        color: red; 
+        font-weight: 600;
+        cursor: pointer;
+    
+    }
+
+    .LoginSignup-agree {
+        display: flex;
+        align-items: center;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+}
+
+@media(max-width:1024px) {
+
+    .LoginSignup-container{
+        width: 450px;
+        min-height: 500px;
+        background: white;
+        padding: 30px 45px;
+        margin: auto;
+    }
+
+    .LoginSignup-container h1{
+        margin: 5px 0px;
+        /* margin-top: -10px; */
+        text-align: center;
+    }
+
+    .underline{
+        width: 90px; 
+        height: 3px;
+        background:#000000;
+        border-radius: 5px;
+  margin: 20px auto;
+    }
+
+    .LoginSignup-fields{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .LoginSignup-fields input{
+        height: 50px;
+        width: 100%;
+        margin-bottom: -5px;
+        padding-left: 10px;
+        border: 1px solid rgb(0, 0, 0);
+        outline: none;
+        font-size: 13px;
+        color: black;
+    }
+
+    .LoginSignup-container button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      width: 100%;
+      height: 50px;
+        background: red;
+        color: white;
+        border: none;
+        font-weight: 400;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .LoginSignup-login{
+        margin-top: 10px;
+        color: black;
+        font-size: 15px;
+        font-weight: 400;
+        
+        }
+    
+        .LoginSignup-login span{
+            color: red; 
+            font-weight: 400;
+            cursor: pointer;
+        
+        }
+
+        .LoginSignup-agree {
+            display: flex;
+            align-items: center;
+            color: black;
+            font-size: 10px;
+            font-weight: 400;
+            margin-top: 15px;
+        }
+}
+
+
+@media(max-width:800px) {
+
+    .LoginSignup-container{
+        width: 450px;
+        min-height: 450px;
+        background: white;
+        padding: 30px 45px;
+        margin: auto;
+    }
+
+    .LoginSignup-container h1{
+        margin: 5px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .underline{
+        width: 50px; 
+        height: 2px;
+        background:#000000;
+        border-radius: 5px;
+        margin: 10px auto;
+    }
+
+    .LoginSignup-fields{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .LoginSignup-fields input{
+        width: 100%;
+        height: 30px;
+        border: 1px solid rgb(0, 0, 0);
+        outline: none;
+        font-size: 10px;
+        color: black;
+    }
+
+    .LoginSignup-container button{
+margin: 10px 0px;
+      width: 100%;
+      height: 40px;
+        background: red;
+        color: white;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .LoginSignup-login{
+        margin-top: 10px;
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        
+        }
+    
+        .LoginSignup-login span{
+            color: red; 
+            font-weight: 400;
+            cursor: pointer;
+        
+        }
+
+        .LoginSignup-agree {
+            display: flex;
+            align-items: center;
+            color: black;
+            font-size: 10px;
+            font-weight: 400;
+            margin-top: 15px;
+        }
+}
+
+
+@media(max-width:620px) {
+
+    .LoginSignup-container{
+        width: 350px;
+        min-height: 400px;
+        background: white;
+        padding: 20px 30px;
+        margin: auto;
+    }
+
+    .LoginSignup-container h1{
+        margin: 3px 0px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .underline{
+        width: 25px; 
+        height: 2px;
+        background:#000000;
+        border-radius: 5px;
+        margin: 7px auto;
+    }
+
+    .LoginSignup-fields input{
+        width: 100%;
+        height: 25px;
+        border: 1px solid rgb(0, 0, 0);
+        outline: none;
+        font-size: 8px;
+        color: black;
+    }
+
+    .LoginSignup-container button{
+       margin: 5px 0px;
+      width: 100%;
+      height: 30px;
+        background: red;
+        color: white;
+        border: none;
+        font-weight: 400;
+        font-size: 9px;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .LoginSignup-login{
+        margin-top: 10px;
+        color: black;
+        font-size: 10px;
+        font-weight: 400;
+        
+        }
+    
+        .LoginSignup-login span{
+            color: red; 
+            font-weight: 400;
+            cursor: pointer;
+        
+        }
+
+        .LoginSignup-agree {
+            display: flex;
+            align-items: center;
+            color: black;
+            font-size: 8px;
+            font-weight: 400;
+            margin-top: 15px;
+        }
+}
+
+
+@media(max-width:500px) {
+
+    .LoginSignup-container{
+        width: 270px;
+        min-height: 300px;
+        background: white;
+        padding: 20px 30px;
+        margin: auto;
+    }
+
+    .LoginSignup-container h1{
+        margin: 3px 0px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .underline{
+        width: 25px; 
+        height: 2px;
+        background:#000000;
+        border-radius: 5px;
+        margin: 7px auto;
+    }
+
+    .LoginSignup-fields input{
+        width: 100%;
+        height: 25px;
+        border: 1px solid rgb(0, 0, 0);
+        outline: none;
+        font-size: 8px;
+        color: black;
+    }
+
+    .LoginSignup-container button{
+       margin: 5px 0px;
+      width: 100%;
+      height: 30px;
+        background: red;
+        color: white;
+        border: none;
+        font-weight: 400;
+        font-size: 9px;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .LoginSignup-login{
+        margin-top: 10px;
+        color: black;
+        font-size: 10px;
+        font-weight: 400;
+        
+        }
+    
+        .LoginSignup-login span{
+            color: red; 
+            font-weight: 400;
+            cursor: pointer;
+        
+        }
+
+        .LoginSignup-agree {
+            display: flex;
+            align-items: center;
+            color: black;
+            font-size: 8px;
+            font-weight: 400;
+            margin-top: 15px;
+        }
 }

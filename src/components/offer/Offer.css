@@ -1,12 +1,10 @@
 
 .container{
- 
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
     padding-left: 120px;
     margin-bottom: 70px;
-    
-
 }
 .Offer{
     width: 86%;
@@ -56,3 +54,104 @@ margin-top: 30px;
 .offer-right img{
     width:280px;
 }
+  @media (max-width:1024px) {
+    
+    .container{
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 120px;
+        margin-bottom: 70px;
+    }
+
+    .Offer {
+    padding: 0px 80px;
+    }
+  
+    .offer-left h1 {
+      font-size: 28px;
+    }
+  
+    .offer-left p {
+      font-size: 20px;
+    }
+  
+    .offer-left button{
+        width: 150px;
+        height: 40px;
+    font-size: 14px;  
+    }
+    .offer-right img{
+        width:180px;
+        margin-bottom: 50px;
+    }
+  }
+  
+  /* For max-width: 800px */
+  @media (max-width:800px) {
+    
+    .container{
+        align-items: center;
+        justify-content: center;
+        padding-left: 120px;
+        margin-bottom: 70px;
+    }
+
+    .Offer {
+    padding: 0px 80px;
+    }
+  
+    .offer-left h1 {
+      font-size: 20px;
+    }
+  
+    .offer-left p {
+      font-size: 13px;
+    }
+  
+    .offer-left button{
+        width: 80px;
+        height: 30px;
+    font-size: 7px;  
+    }
+    .offer-right img{
+        width:140px;
+        margin-bottom: 30px;
+    }
+  }
+  
+  
+  /* For max-width: 500px */
+  @media (max-width:500px) {
+    
+    .container{
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 40px;
+    }
+
+    .Offer {
+    padding: 0px 30px;
+    }
+  
+    .offer-left h1 {
+      font-size: 15px;
+    }
+  
+    .offer-left p {
+      font-size: 10px;
+    }
+  
+    .offer-left button{
+        width: 80px;
+        height: 2opx;
+    font-size: 7px;  
+    margin-top: 5px;
+    }
+    .offer-right img{
+        width:110px;
+        margin-bottom: 30px;
+    }
+  }
+  

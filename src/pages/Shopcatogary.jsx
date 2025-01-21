@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import '../pages/css/ShopCategory.css'
 import { ShopContext } from '../context/ShopContext'
 import Items from '../components/Items/Items'
-import dropdown_icon from '../components/Assets/Assets/dropdown.png'
+import dropdown_icon from '../components/Assets/Assets/white-dropdown.png'
 
 
 const Shopcatogary = (props) => {
@@ -34,20 +34,26 @@ const Shopcatogary = (props) => {
 
   return (
     <div className='Shop-catogary'>
+
       <img className='shopcategory-banner' src={props.banner} alt="" />
+
       <div className="shopcategory-indexSort">
+        <p><span>Showing 1-12 </span>Out Of 36 Products</p>
 
-        <p><span>Showing 1-12</span>Out Of 36 Products</p>
+        <div className="shopcategory-Sort">
+  <div className="select-wrapper">
+    <select onChange={(e) => setSortType(e.target.value)} className="custom-select">
+      <option value="relevant">Sort By: Relevant</option>
+      <option value="low-high">Sort By: Low To High</option>
+      <option value="high-low">Sort By: High To Low</option>
+    </select>
+    <img src={dropdown_icon} alt="Dropdown Icon" className="dropdown-icon" />
+  </div>
+</div>
 
-      <div className='shopcategory-Sort'>
-        <select onChange={(e) => setSortType(e.target.value)}>
-          <option value="relevant" >Sort By: Relevant </option>
-          <option value="low-high">Sort By: Low To High</option>
-          <option value="high-low">Sort By: High To Low</option>
-        </select>
-      </div>
-        
-      </div>
+
+</div>
+
       <div className="shopcategory-products">
         {filterProducts.map((item, i) => {
           if (props.category === item.category) {
@@ -60,9 +66,11 @@ const Shopcatogary = (props) => {
           }
         })}
       </div>
+
       <div className="shopcategory-loadmore">
         Explore More
       </div>
+
     </div>
   )
 }

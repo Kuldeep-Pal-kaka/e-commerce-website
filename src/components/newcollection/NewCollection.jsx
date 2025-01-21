@@ -7,9 +7,7 @@ const NewCollection = () => {
   return (
     <div className='New-Collection'>
   <h1>NEW COLLECTIONS</h1>
-      <div className="underline">
-      <hr/>
-      </div>
+  <div className="underline"> </div>
 
   <div className="collections">
   {new_collection.map((item, i) => {

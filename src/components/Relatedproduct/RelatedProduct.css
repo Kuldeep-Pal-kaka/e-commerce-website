@@ -23,3 +23,116 @@
     display: flex;
     gap: 30px;
 }
+
+@media(max-width:1280px) {
+    .RelatedProduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 90vh;
+    
+    }
+    .RelatedProduct h1{
+        color: black;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .RelatedProduct hr{
+        width: 200px;
+        height: 6px;
+        border-radius: 10px;
+        background: #252525;
+    }
+    
+    .relatedproduct-item{
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media(max-width:1024px) {
+    .RelatedProduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 90vh;
+    
+    }
+    .RelatedProduct h1{
+        color: black;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .RelatedProduct hr{
+        width: 180px;
+        height: 5px;
+        border-radius: 10px;
+        background: #252525;
+    }
+    
+    .relatedproduct-item{
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+
+@media(max-width:800px) {
+    .RelatedProduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 90vh;
+    
+    }
+    .RelatedProduct h1{
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .RelatedProduct hr{
+        width: 150px;
+        height: 4px;
+        border-radius: 10px;
+        background: #252525;
+    }
+    
+    .relatedproduct-item{
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    .RelatedProduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+     height: 110vh;
+    
+    }
+    .RelatedProduct h1{
+        color: black;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .RelatedProduct hr{
+        width: 130px;
+        height: 3px;
+        border-radius: 10px;
+        background: #252525;
+    }
+    
+    .relatedproduct-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

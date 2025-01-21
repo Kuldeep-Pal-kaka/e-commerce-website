@@ -40,9 +40,7 @@ const CartItems = () => {
       <div className="cartitem-down">
         <div className="cartitem-total">
           <h1>Cart Totals</h1>
-
           <div>
-
             <div className="cartitem-total-items">
               <p>Subtotal</p>
               <p>${gettotalcartamount()}</p>
@@ -63,6 +61,7 @@ const CartItems = () => {
           <button>PROCEED TO CHECKOUT</button>
 
         </div>
+
         <div className="cartitems-promocode">
           <p>If You Have A Promocode, Enter It Here</p>
           <div className="cartitem-promobox">
@@ -71,6 +70,7 @@ const CartItems = () => {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
